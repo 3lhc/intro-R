@@ -118,3 +118,12 @@ mat
 t(mat)
 ```
 
+##Data types
+R can recognize different types of data.
+
+We'll look at four basic types:
+
+- numbers
+- character strings (text)
+- logical
+- factor
