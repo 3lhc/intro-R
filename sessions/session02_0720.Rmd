@@ -127,3 +127,55 @@ We'll look at four basic types:
 - character strings (text)
 - logical
 - factor
+
+
+### numeric
+- Any number, no quotes. 
+- Appropiate for math.
+
+```{r}
+12+4
+```
+
+```{r}
+3000000
+```
+
+```{r}
+class(0.000001)
+```
+
+### character
+
+- Any symbols surronded by quotes.
+- Appropiate for words, variable names, messages, any text.
+
+```{r}
+"hello"
+```
+
+```{r}
+class("hello")
+```
+
+
+```{r}
+"12+4"
+```
+
+```{r}
+class("12+4")
+```
+
+```{r}
+"hello" + "world"
+```
+
+```{r}
+nchar("hello")
+```
+
+```{r}
+paste("hello","world")
+```
+
