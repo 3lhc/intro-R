@@ -67,6 +67,54 @@ vec
 
 ### Matrices
 
-- Multiple elements stored in a two dimensional array.
+- Combine multiple elements into a two dimensional array.
 
 - Create with the `matrix` function.
+```{r}
+            #vector of elements to go in the matrix     number of rows for matrix
+
+mat<-matrix(data = c(1,2,3,4,5,6),                      nrow = 2)
+mat
+```
+
+```{r}
+            #vector of elements to go in the matrix     number of rows for matrix
+
+mat<-matrix(data = c(1,2,3,4,5,6),                      nrow = 3)
+mat
+```
+
+### Math: element- wise
+```{r}
+vec + 4
+```
+
+```{r}
+vec * 4
+```
+
+```{r}
+vec * vec
+```
+
+### Matrix multiplication
+
+**inner**
+```{r}
+vec %*% vec
+```
+
+**outer**
+```{r}
+vec %o% vec
+```
+
+**transpose**
+```{r}
+mat
+```
+
+```{r}
+t(mat)
+```
+
