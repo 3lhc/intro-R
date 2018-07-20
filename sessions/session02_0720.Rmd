@@ -28,7 +28,7 @@ factorial(foo)
 ```
 
 ## Remove objetcs from environment
-You can remove an objetc with `rm()`
+You can remove an objetc with `rm`
 ```{r}
 fac_foo<-factorial(foo)
 fac_foo
@@ -45,3 +45,28 @@ rm(fac_foo)
 
 - R will treat the lowercase and capital letters as different.
 
+
+## Data Structures
+
+You ca save more than a single number in an objetc by creating a *vector*, *matrix*, or *array*.
+
+```{r}
+WorldPhones
+```
+
+
+### Vectors
+
+- Combine multiple elements into one dimensional array.
+
+- Create with the `c` function.
+```{r}
+vec<-c(1,2,3,10,100)
+vec
+```
+
+### Matrices
+
+- Multiple elements stored in a two dimensional array.
+
+- Create with the `matrix` function.
